@@ -52,3 +52,15 @@ Contents
   margin: 1.5em auto;
   font-size: 1.5em;
 }
+
+#blog-card-title {
+  padding: 1em;
+}
+.card {
+  text-align: center;
+}
+
+#blog-card-btn {
+  margin: auto;
+  text-align: center;
+}
