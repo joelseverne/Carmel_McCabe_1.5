@@ -15,8 +15,6 @@ Contents
   font-family: 'Quicksand', sans-serif;
 }
 
-/* General */
-
 /* Index */
 
 .carousel-inner img {
@@ -27,15 +25,6 @@ Contents
 #headerBanner {
   width: 100vw;
   height: 80vh;
-}
-
-.triangle-down {
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 20px solid black;
-  margin: 4em auto;
 }
 
 #headerLogo {
@@ -57,4 +46,9 @@ Contents
   font-weight: bolder;
   font-size: 1em;
   padding: 1em 0.5em;
+}
+
+#tagline {
+  margin: 1.5em auto;
+  font-size: 1.5em;
 }
