@@ -15,6 +15,12 @@ Contents
   font-family: 'Quicksand', sans-serif;
 }
 
+.row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
 /* Index */
 
 .carousel-inner img {
@@ -28,7 +34,7 @@ Contents
 }
 
 #headerLogo {
-  margin: 2em auto;
+  /* margin: 2em auto 4em; */
   max-width: 40%;
 }
 
@@ -49,7 +55,7 @@ Contents
 }
 
 #tagline {
-  margin: 1.5em auto;
+  margin: auto;
   font-size: 1.5em;
 }
 
