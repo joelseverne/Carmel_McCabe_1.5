@@ -3,6 +3,10 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+.boldText {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .demo-layout-transparent {
   background: url('imgs/ss/ss-1-min.jpg') center / cover;
 }
@@ -29,6 +33,7 @@
 border: solid 2px;
 box-shadow: 1px 2px 2px 0px black;
 background-color: inherit;
+
 }
 
 .landscape {
