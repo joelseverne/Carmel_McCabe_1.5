@@ -1,72 +1,36 @@
-/*
-Styling for Carmel McCabe 1.5
-
-Contents
-
-+ General
-+ Index
-+ Media Queries
-*/
-
-/* General */
-
 * {
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
 
-.row {
-  padding-top: 1em;
-  padding-bottom: 1em;
+.demo-layout-transparent {
+  background: url('imgs/ss/ss-1-min.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
 }
 
-
-/* Index */
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('imgs/blog/blog7-1-min.png') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
 }
 
-#headerBanner {
-  width: 100vw;
-  height: 80vh;
+.material-icons {
+border: solid 2px;
+box-shadow: 1px 2px 2px 0px black;
+background-color: inherit;
 }
 
-#headerLogo {
-  /* margin: 2em auto 4em; */
-  max-width: 40%;
-}
-
-#navbar {
-  background-color: white;
-}
-
-#navbarNav {
-  flex-direction: row;
-}
-
-#navbar ul li a {
-  color: black;
-  background-color: white;
-  font-weight: bolder;
-  font-size: 1em;
-  padding: 1em 0.5em;
-}
-
-#tagline {
-  margin: auto;
-  font-size: 1.5em;
-}
-
-#blog-card-title {
-  padding: 1em;
-}
-.card {
-  text-align: center;
-}
-
-#blog-card-btn {
-  margin: auto;
-  text-align: center;
+.landscape {
+  max-height: 100vh
 }
