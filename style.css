@@ -9,6 +9,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.pageTitle {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .banner {
   width: 100vw;
   display: inline-block;
@@ -107,6 +112,24 @@ background-color: inherit;
 
 }
 
+/* Homepage *******************************************************************/
+
+.review {
+  text-align: center;
+  font-style: italic;
+}
+
+#reviewDiv {
+  max-width: 90%;
+  margin: 2em auto;
+}
+
+blockquote::before,
+blockquote::after {
+  display: none;
+}
+
+
 /* Contact ********************************************************************/
 
 .email {
@@ -153,17 +176,17 @@ background-color: inherit;
   margin: 1em auto;
 }
 
-/* .img2 {
+.img2 {
   max-width: 48vw;
   margin: 1em auto;
-} */
+}
 
 .img3 {
   max-width: 100vw;
   margin: 0.5em auto;
 }
 
-/* .img4 {
+.img4 {
   max-width: 31vw;
   margin: 1.5em auto;
-} */
+}
