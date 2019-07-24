@@ -210,7 +210,7 @@ blockquote::after {
     align-items: center;
   } */
 
-  .img2 {
+  /* .img2 {
     display: inline-block;
     width: 40%;
     height: 100%;
@@ -270,4 +270,4 @@ blockquote::after {
   /* .portrait-nav {
     font-size: 1em;
   } */
-}
+} 
