@@ -159,6 +159,7 @@ blockquote::after {
 .active, .collapsible:hover {
   background-color: #fff;
   outline: none;
+  border: none;
 }
 
 .content {
@@ -189,4 +190,84 @@ blockquote::after {
 .img4 {
   max-width: 31vw;
   margin: 1.5em auto;
+}
+
+/* Media Queries **************************************************************/
+
+@media (min-width: 769px) {
+
+  /* .Header,
+  .main-nav {
+    display: flex;
+  } */
+
+  /* .carousel-inner img {
+    max-width: 864px;
+  } */
+
+  /* .Header {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .img2 {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+  }
+
+  .img5 {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+  }
+
+  .img4 {
+    display: inline-block;
+    width: 22%;
+    height: 100%;
+  }
+
+  .gallery img {
+    width: 230px;
+    padding: 5px;
+    height: 157px;
+  }
+
+  .portfolio-sets {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .portfolio-sets img {
+    padding: 1em;
+    margin: 2em auto;
+  }
+
+  .portfolio-sets {
+    border-top: solid 3px black;
+    max-width: 90%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* blockquote {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 5%;
+  } */
+
+  /* #reviewDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    border-top: solid 3px black;
+    margin: 2.5em auto;
+  } */
+
+  /* .portrait-nav {
+    font-size: 1em;
+  } */
 }
