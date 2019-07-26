@@ -1,9 +1,3 @@
-<!-- <!doctype html>
-<html>
-<head>
-  <title>Response Script</title>
-</head>
-<body> -->
 
 <?php
 if(isset($_POST['submit'])){
@@ -24,6 +18,3 @@ if(isset($_POST['submit'])){
     // You cannot use header and echo together. It's one or the other.
     }
 ?>
-<!--
-</body>
-</html> -->
