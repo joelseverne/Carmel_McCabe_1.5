@@ -140,20 +140,30 @@ blockquote::after {
 
 /* Blog ***********************************************************************/
 
+.buttonWrap {
+  text-align: center;
+}
+
+button:focus,
+button:active {
+   outline: none !important;
+}
+
 .blog_wrapper {
   margin: 2.5em 0;
 }
 
 .collapsible {
-  background-color: #fff;
+  /* background-color: #E5E5E5; */
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
+  /* border: none; */
+  /* border-radius: 10px; */
+  /* box-shadow: 2px 2px 2px #303030; */
   outline: none;
-
+  width: 70%;
+  margin: auto;
 }
 
 .active, .collapsible:hover {
@@ -270,4 +280,4 @@ blockquote::after {
   /* .portrait-nav {
     font-size: 1em;
   } */
-} 
+}
