@@ -16,7 +16,7 @@
   <title>Carmel McCabe</title>
 </head>
 
-<body>
+<body onload="AlertTest()">
   <!-- Uses a transparent header that draws on top of the layout's background -->
   <div class="mdl-layout mdl-js-layout">
     <!-- remove 'demo-layout-transparent' to change hamburger nav -->
@@ -73,7 +73,7 @@
                 <label for="message">Write a message</label>
                 <textarea class="form-control" rows="5" name="message" cols="30"></textarea>
               </div>
-              <button type="submit" name="submit" class="btn btn-black" onclick="alert('Thanks for your message')">Submit</button>
+              <button name="submit" class="btn btn-black" onclick="ShowAlert()">Submit</button>
             </form>
           </div>
         </div>
@@ -103,6 +103,18 @@
   <script>
 
     document.getElementById('start').valueAsDate = new Date();
+
+    var displayAlert = false;
+
+    function AlertTest() {
+      if (displayAlert = true) {
+        alert("Thanks for your message! I'll get back to you soon");
+      }
+    }
+
+    function ShowAlert() {
+      displayAlert = true;
+    }
 
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
