@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- MD -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!-- Bootstrap-->
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> <!-- MD -->
+  <script src="JS/ContactScript.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet"> <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet"> <!-- Google Font -->
   <title>Carmel McCabe</title>
@@ -73,7 +74,7 @@
                 <label for="message">Write a message</label>
                 <textarea class="form-control" rows="5" name="message" cols="30"></textarea>
               </div>
-              <button name="submit" class="btn btn-black" onclick="ShowAlert()">Submit</button>
+              <button name="submit" class="btn btn-black" onclick="AlertTrue()">Submit</button>
             </form>
           </div>
         </div>
@@ -101,21 +102,7 @@
   </div>
 
   <script>
-
-    document.getElementById('start').valueAsDate = new Date();
-
-    var displayAlert = false;
-
-    function AlertTest() {
-      if (displayAlert = true) {
-        alert("Thanks for your message! I'll get back to you soon");
-      }
-    }
-
-    function ShowAlert() {
-      displayAlert = true;
-    }
-
+    document.getElementById('start').valueAsDate = new Date()
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
