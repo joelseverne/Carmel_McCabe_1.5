@@ -2,6 +2,18 @@
 <html lang="En">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144728850-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144728850-1');
+  </script>
   <meta charset="utf-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -13,6 +25,9 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> <!-- MD -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet"> <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet"> <!-- Google Font -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="icon" href="imgs/favicon.jpg" type="image/jpg">
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
   <title>Carmel McCabe</title>
 </head>
 
@@ -34,65 +49,126 @@
     </div>
     <main class="mdl-layout__content pt-2 container-fluid">
 
-      <div class="mdl-layout__header-row">
+      <div class="mdl-layout__header-row mdl-layout--small-screen-only">
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">Portraits and Lifestyle</a>
+          <a class="mdl-navigation__link" href="weddings.html">W</a>
           <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">P & L</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="commercial.html">C</a>
+        </nav>
+      </div>
+
+      <div class="mdl-layout__header-row mdl-layout--large-screen-only">
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="weddings.html">Weddings</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">Portraits and Lifestyle</a>
           <a class="mdl-navigation__link" href="#">/</a>
           <a class="mdl-navigation__link" href="commercial.html">Commercial</a>
         </nav>
       </div>
+      <!-- <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-3-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-4-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-5-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-6-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-7-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-8-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-9-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-10-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-11-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-12-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-13-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-14-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-15-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-17-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-17-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-19-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-20-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-21-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-22-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-23-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-24-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-25-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-26-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-27-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div>
+      <div class="row justify-content-center">
+        <img src="imgs/WeddingsImgs/weddings-28-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-29-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/WeddingsImgs/weddings-30-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div> -->
 
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-3-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-4-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-5-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-6-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-7-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-8-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-9-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-10-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-11-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-12-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-13-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-14-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-15-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-17-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-17-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-19-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-20-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-21-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-22-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-23-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-24-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-25-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-26-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-27-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-      </div>
-      <div class="row justify-content-around">
-          <img src="imgs/WeddingsImgs/weddings-28-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-29-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/WeddingsImgs/weddings-30-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="gallery">
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-31.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-31-cropped.jpg" alt="bride and groom during private couples moment"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/wedding-27-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/wedding-27-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/wedding-28-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/wedding-28-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/wedding-29-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/wedding-29-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/wedding-30-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/wedding-30-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-3-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-3-min-cropped.jpg" alt="group family shot of wedding in Cwmbran Golf CLub"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-32.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-32-cropped.jpg" alt="bride and groom during private couples moment"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-4-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-4-thumb-min-cropped.jpg" alt="detail shot of shoes and bouquets"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-5-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-5-thumb-min-cropped.jpg" alt="father-daughter moment during the wedding morning prep"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-6-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-6-min-cropped.jpg" alt="bridesmaids lined up for the arrival of the bride"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-7-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-7-min-cropped.jpg" alt="bride at Hay on Wye greeting her family anf guests"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-36.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-36-cropped.jpg" alt="bride and groom during private couples moment"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-8-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-8-min-cropped.jpg" alt="detail shot of literary themed wedding"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-9-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/wedding-9-thumb-min-cropped.jpg" alt="father-daughter moment during the wedding reception"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-10-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/wedding-10-thumb-min-cropped.jpg" alt="sparklers make for a perfect final shot"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-11-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-11-min-cropped.jpg" alt="traditional floral bouquet"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-12-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-12-min-cropped.jpg" alt="ceremony room all ready for the big day"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-13-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-13-min-cropped.jpg" alt="detail shot of the morning bridal prep"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-14-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-14-min-cropped.jpg" alt="bridesmaids and flower girls all ready for the day"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-15.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-15-cropped.jpg" alt="couples shot outside Maes Manor"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-16-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-16-min-cropped.jpg" alt="Close up couple shot at Meas Manor"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-33.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-33-cropped.jpg" alt="bride and groom during private couples moment"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-17-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-17-min-cropped.jpg" alt="black and white shot in Blackwood"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-18-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-18-min-cropped.jpg" alt="a moment of sunshine during Welsh Autumn"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-19-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-19-min-cropped.jpg" alt="pastel pink set-up for the wedding breakfast"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-20-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-20-min-cropped.jpg" alt="bridesmaids and bubbles in black and white"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-35.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-35-cropped.jpg" alt="bride and groom during private couples moment"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-21-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-21-min-cropped.jpg" alt="playful shot of the flower girls"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-22-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-22-min-cropped.jpg" alt="detail of the bride and her daughter"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-23-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-23-min-cropped.jpg" alt="big hugs and thanks with the bride and family friends"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-24-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-24-thumb-min-cropped.jpg" alt="wide angle shot of the bride and groom"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-25-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-25-min-cropped.jpg" alt="black and white shot of the bride and groom"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-26-min.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-26-min-cropped.jpg" alt="bride and groom during private couples moment"></a>
+        <a class="lightbox" href="imgs/wedding-min-imgs/weddings-34.jpg" data-lightbox="mygallery"><img src="imgs/wedding-min-imgs-cropped/weddings-34-cropped.jpg" alt="bride and groom during private couples moment"></a>
       </div>
 
-      <div class="mdl-layout__header-row" style="margin-bottom: 30px;">
+
+      <div class="mdl-layout__header-row mdl-layout--small-screen-only" style="margin-bottom: 30px;">
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">P & L</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="weddings.html">W</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="commercial.html">C</a>
+        </nav>
+      </div>
+
+      <div class="mdl-layout__header-row mdl-layout--large-screen-only" style="margin-bottom: 30px;">
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation">
@@ -126,7 +202,13 @@
     </main>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>
+    jQuery(function($) {
+      $("a.lightbox").stupidbox();
+    });
+  </script>
+  <!-- <script src="//code.jquery.com/jquery-latest.js"></script> -->
+  <script src="JS/jquery.stupidbox.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>

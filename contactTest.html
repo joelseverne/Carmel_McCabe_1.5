@@ -2,6 +2,15 @@
 <html lang="En">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144728850-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144728850-1');
+</script>
   <meta charset="utf-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -11,13 +20,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- MD -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!-- Bootstrap-->
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> <!-- MD -->
-  <script src="JS/ContactScript.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet"> <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet"> <!-- Google Font -->
+  <link rel="icon" href="imgs/favicon.jpg" type="image/jpg">
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
   <title>Carmel McCabe</title>
 </head>
 
-<body onload="AlertTest()">
+<body>
   <!-- Uses a transparent header that draws on top of the layout's background -->
   <div class="mdl-layout mdl-js-layout">
     <!-- remove 'demo-layout-transparent' to change hamburger nav -->
@@ -27,7 +37,7 @@
         <a href="index.html">
           <img class="mdl-layout-title" src="imgs/carmel-logo.png" alt="logo for Carmel McCabe photography" style="max-width: 40%; margin: 2em auto">
           </a>
-          <a class="mdl-navigation__link boldText" href="#">Portfolio</a>
+          <a class="mdl-navigation__link boldText" href="weddings.html">Portfolio</a>
           <a class="mdl-navigation__link boldText" href="contactTest.html">Contact</a>
           <a class="mdl-navigation__link boldText" href="packages.html">Packages</a>
           <a class="mdl-navigation__link boldText" href="blog.html">Blog</a>
@@ -35,24 +45,24 @@
     </div>
     <main class="mdl-layout__content pt-2">
 
-      <h1 class="boldText text-right">Contact</h1>
+      <h1 class="text-right pr-3 pt-2 pageTitle">Contact</h1>
 
-      <img  class="banner" src="imgs/packages-flay.jpg" alt="flat lay of wedding package available">
+      <img  class="banner" src="imgs/flay-min.jpg" alt="flat lay of wedding package available">
 
       <div class="container-fluid my-xs-5 my-md-5 p-m-3">
-        <div class="row justify-content-around">
-          <div class="mdl-cell col-xs-12 col-md-5">
-            <h3 class="boldText">
+        <div class="row justify-content-around" style="margin: auto;">
+          <div class="mdl-cell col-xs-12 col-md-5 col my-5 mx-3">
+            <h4 class="boldText">
               Want to ask a question?<br>
               Complete the form and I'll get back
               to you as soon as i can :)
-            </h3>
-            <h3>
+            </h4>
+            <h4>
               * Or drop me an email at:<br>
                 <a class="email" href="mailto:carmelteresamccabe@mail.com"><strong>carmelteresamccabe@mail.com</strong></a>
-            </h3>
+            </h4>
           </div>
-          <div class="mdl-cell col-xs-12 col-md-5">
+          <div class="mdl-cell col-xs-12 col-md-5 my-5">
             <form action="mail_handler.php" method="post">
               <div class="form-group">
                 <label for="inputFirstName">First name</label>
@@ -74,7 +84,7 @@
                 <label for="message">Write a message</label>
                 <textarea class="form-control" rows="5" name="message" cols="30"></textarea>
               </div>
-              <button name="submit" class="btn btn-black" onclick="AlertTrue()">Submit</button>
+              <button name="submit" value="Submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onsubmit="ThankYou()">Submit</button>
             </form>
           </div>
         </div>
@@ -104,6 +114,7 @@
   <script>
     document.getElementById('start').valueAsDate = new Date()
   </script>
+  <script src="JS/ContactScript.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

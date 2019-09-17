@@ -2,6 +2,18 @@
 <html lang="En">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144728850-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144728850-1');
+  </script>
   <meta charset="utf-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -13,6 +25,9 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> <!-- MD -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet"> <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet"> <!-- Google Font -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="icon" href="imgs/favicon.jpg" type="image/jpg">
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
   <title>Carmel McCabe</title>
 </head>
 
@@ -34,56 +49,108 @@
     </div>
     <main class="mdl-layout__content pt-2 container-fluid">
 
-      <div class="mdl-layout__header-row">
+      <div class="mdl-layout__header-row mdl-layout--small-screen-only">
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">Portraits and Lifestyle</a>
+          <a class="mdl-navigation__link" href="weddings.html">W</a>
           <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">P & L</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="commercial.html">C</a>
+        </nav>
+      </div>
+
+      <div class="mdl-layout__header-row mdl-layout--large-screen-only">
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="weddings.html">Weddings</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">Portraits and Lifestyle</a>
           <a class="mdl-navigation__link" href="#">/</a>
           <a class="mdl-navigation__link" href="commercial.html">Commercial</a>
         </nav>
       </div>
 
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-1-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-2-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-3-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <!-- <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-1-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-2-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-3-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
       </div>
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-4-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-5-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-6-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-4-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-5-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-6-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
       </div>
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-8-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-10-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-11-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-8-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-10-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-11-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
       </div>
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-12-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-13-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-14-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-12-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-13-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-14-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
       </div>
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-15-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-16-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-17-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-15-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-16-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-17-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
       </div>
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-18-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-19-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-20-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-18-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-19-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-20-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
       </div>
-      <div class="row justify-content-around">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-7-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-21-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
-          <img src="imgs/PortraitsAndLifestyleImgs/cal-22-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      <div class="row justify-content-center">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-7-thumb-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-21-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+        <img src="imgs/PortraitsAndLifestyleImgs/cal-22-cropped.jpg" class="col-xs-12 col-md-4 col-lg-3 my-2 my-md-5" alt="#">
+      </div> -->
+
+      <div class="gallery">
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-23-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-23-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-24-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-24-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-25-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-25-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-26-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-26-min-cropped.jpg" alt="#"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-1-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-1-min-cropped.jpg" alt="a summer picnic shot"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-2-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-2-min-cropped.jpg" alt="winter walk atop Twmbarlwm"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-3-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-3-min-cropped.jpg" alt="a cute close up of a pug"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-4-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-4-min-cropped.jpg" alt="male figure and pet by the water"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-5-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-5-min-cropped.jpg" alt="woodland family portrait"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-6-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-6-min-cropped.jpg" alt="rural male portrait"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-7-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-7-thumb-min-cropped.jpg" alt="Welsh waterfalls with male model"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-8-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-8-thumb-min-cropped.jpg" alt="curious pug on a bridge"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-9-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-9-min-cropped.jpg" alt="happy couples shot at St Fagans"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-10-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-10-min-cropped.jpg" alt="Autumnal couples shoot"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-11-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-11-min-cropped.jpg" alt="close-up engagement with unique ring"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-12-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-12-min-cropped.jpg" alt="wide shot of a winter family portrait"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-13-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-13-min-cropped.jpg" alt="happy sibblings hug for group photo"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-14-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-14-min-cropped.jpg" alt="close up couples shot holding hands"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-15-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-15-min-cropped.jpg" alt="Autumnal engagement shoot"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-16-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-16-min-cropped.jpg" alt="Close up couples shoot at St Fagans"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-17-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-17-min-cropped.jpg" alt="happy family portrait in Newport"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-18-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-18-min-cropped.jpg" alt="Autumnal engagement shot"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-19-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-19-thumb-min-cropped.jpg" alt="woodland scene shot on film"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-20-min.png" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-20-thumb-min-cropped.jpg" alt="rural lifestyle shot of male and pug"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-21-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-21-min-cropped.jpg" alt="wintery kinds portrait"></a>
+        <a class="lightbox" href="imgs/cal-min-imgs/cal-22-min.jpg" data-lightbox="mygallery"><img src="imgs/cal-min-imgs-cropped/cal-22-min-cropped.jpg" alt="Christmas theme studio shot of toddler"></a>
       </div>
 
+      <div class="mdl-layout__header-row mdl-layout--small-screen-only" style="margin-bottom: 30px;">
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="PortraitsAndLifestyle.html">P & L</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="weddings.html">W</a>
+          <a class="mdl-navigation__link" href="#">/</a>
+          <a class="mdl-navigation__link" href="commercial.html">C</a>
+        </nav>
+      </div>
 
-      <div class="mdl-layout__header-row" style="margin-bottom: 30px;">
+      <div class="mdl-layout__header-row mdl-layout--large-screen-only" style="margin-bottom: 30px;">
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <nav class="mdl-navigation">
@@ -117,6 +184,12 @@
     </main>
   </div>
 
+  <script>
+    jQuery(function($) {
+      $("a.lightbox").stupidbox();
+    });
+  </script>
+  <script src="JS/jquery.stupidbox.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
