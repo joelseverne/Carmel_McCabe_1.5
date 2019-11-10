@@ -37,7 +37,7 @@
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('imgs/blog-min/blog10-1-min.png') center / cover;
+  background: url('imgs/blog-min/blog11-1-min.png') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
@@ -235,7 +235,7 @@ article p,
 }
 
 .img4 {
-  max-width: 31vw;
+  max-width: 26vw;
   margin: 1.5em auto;
 }
 
