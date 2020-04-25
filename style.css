@@ -140,6 +140,142 @@ blockquote::after {
   min-height: 563px;
 }
 
+/* Modal pop up on homepage for offer */
+
+#myBtn {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#AsSeenInRow {
+  margin-top: 8em;
+}
+
+#LogoImagesRow {
+  margin-bottom: 8em;
+}
+
+/* Review Div */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: white;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
 /* Contact ********************************************************************/
 
 .email {
@@ -291,80 +427,7 @@ article p,
 
 @media (min-width: 769px) {
 
-  /* .Header,
-  .main-nav {
-    display: flex;
-  } */
 
-  /* .carousel-inner img {
-    max-width: 864px;
-  } */
-
-  /* .Header {
-    flex-direction: column;
-    align-items: center;
-  } */
-
-  /* .img2 {
-    display: inline-block;
-    width: 40%;
-    height: 100%;
-  }
-
-  .img5 {
-    display: inline-block;
-    width: 40%;
-    height: 100%;
-  }
-
-  .img4 {
-    display: inline-block;
-    width: 22%;
-    height: 100%;
-  }
-
-  .gallery img {
-    width: 230px;
-    padding: 5px;
-    height: 157px;
-  }
-
-  .portfolio-sets {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .portfolio-sets img {
-    padding: 1em;
-    margin: 2em auto;
-  }
-
-  .portfolio-sets {
-    border-top: solid 3px black;
-    max-width: 90%;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* blockquote {
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 5%;
-  } */
-
-  /* #reviewDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    max-width: 90%;
-    border-top: solid 3px black;
-    margin: 2.5em auto;
-  } */
-
-  /* .portrait-nav {
-    font-size: 1em;
-  } */
   .blog_wrapper {
     margin: 7em 0;
   }
@@ -376,5 +439,17 @@ article p,
 
   article h2 {
     text-align: center;
+  }
+
+  #modalBR {
+    display: none;
+  }
+
+  #AsSeenInRow {
+    margin-top: 4em;
+  }
+
+  #LogoImagesRow {
+    margin-bottom: 4em;
   }
 }
